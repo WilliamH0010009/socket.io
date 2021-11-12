@@ -2743,7 +2743,7 @@ describe("socket.io", () => {
         expect(socket.connected).to.be(true);
         expect(socket.disconnected).to.be(false);
         success(io, clientSocket, done);
-      })
+      });
     });
   });
 
